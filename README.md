@@ -21,8 +21,6 @@ Node v14.20.1
 
 NPM v8.19.1
 
-Yarn v1.22.19
-
 ## Prerequisites
 
 First create file with environment variables (examples variables is for local development)
@@ -31,20 +29,20 @@ First create file with environment variables (examples variables is for local de
 
 To install dependencies use
 
-`yarn`
+`npm i`
 
 ## How to run
 
-`yarn start`
+`npm start`
 
 ## How to develop
 
-`yarn dev`
+`npm run dev`
 
 ## How to run unit tests
 
-`yarn test`
+`npm run test`
 
 ## How to run e2e tests
 
-`yarn e2e`
+`npm run e2e`
