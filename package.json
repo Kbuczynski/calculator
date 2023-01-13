@@ -1,0 +1,32 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "kbuczynski",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage --output='./src'",
+    "e2e": "cypress run",
+    "e2e:watch": "cypress open"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "cypress": "12.3.0",
+    "jest": "29.3.1",
+    "nodemon": "2.0.20"
+  },
+  "jest": {
+    "coverageDirectory": "<rootDir>/src/tests/unit/coverage"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
