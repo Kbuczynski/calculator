@@ -1,2 +1,10 @@
+# Basics
 node_modules
 .env
+
+# Unit
+src/tests/unit/coverage
+
+# E2E
+src/tests/e2e/screenshots
+src/tests/e2e/videos
